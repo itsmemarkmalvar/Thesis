@@ -1,0 +1,45 @@
+{
+  "expo": {
+    "plugins": [
+      "react-native-reanimated",
+      [
+        "expo-facebook",
+        {
+          "appID": "1241435060269374",
+          "clientToken": "da5156fc8ec1b349e30fe4fe33d081b4",
+          "scheme": "fb1241435060269374",
+          "advertiserIDCollectionEnabled": false,
+          "autoLogAppEventsEnabled": true,
+          "isAutoInitEnabled": true
+        }
+      ]
+    ],
+    "scheme": "binibaby",
+    "facebookScheme": "fb1241435060269374",
+    "facebookAppId": "1241435060269374",
+    "facebookDisplayName": "BINIBABY",
+    "facebookAutoInitEnabled": true,
+    "ios": {
+      "bundleIdentifier": "com.binibaby.app",
+      "supportsTablet": true,
+      "config": {
+        "usesNonExemptEncryption": false,
+        "facebook": {
+          "appId": "1241435060269374",
+          "clientToken": "da5156fc8ec1b349e30fe4fe33d081b4",
+          "scheme": "fb1241435060269374"
+        }
+      }
+    },
+    "android": {
+      "package": "com.binibaby.app",
+      "config": {
+        "facebook": {
+          "appId": "1241435060269374",
+          "clientToken": "da5156fc8ec1b349e30fe4fe33d081b4",
+          "scheme": "fb1241435060269374"
+        }
+      }
+    }
+  }
+} 
